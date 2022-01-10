@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unnamed</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+    <div class="all">
+        <div class="money">
+            You have <span class="amount1">10</span> money
+        </div>
+        <div class="generatorbuy">
+            <button class="generatorbuy1" style="top:70px;" onclick="gen1buy()">buy 1st generator Cost:<span class="cost1">10</span></button>
+            <button class="generatorbuy2" style="top:130px;" onclick="gen2buy()">buy 2nd generator Cost:<span class="cost2">100</span></button>
+            <button class="generatorbuy3" style="top:190px;" onclick="gen3buy()">buy 3rd generator Cost:<span class="cost3">1e4</span></button>
+            <button class="generatorbuy4" style="top:250px;" onclick="gen4buy()">buy 4th generator Cost:<span class="cost4">1e6</span></button>
+            <button class="generatorbuy5" style="top:310px;" onclick="gen5buy()">buy 5th generator Cost:<span class="cost5">1e9</span></button>
+            <button class="generatorbuy6" style="top:370px;" onclick="gen6buy()">buy 6th generator Cost:<span class="cost6">1e13</span></button>
+            <button class="generatorbuy7" style="top:430px;" onclick="gen7buy()">buy 7th generator Cost:<span class="cost7">1e18</span></button>
+            <button class="generatorbuy8" style="top:490px;" onclick="gen8buy()">buy 8th generator Cost:<span class="cost8">1e24</span></button>
+        </div>
+        <div class="generatoramount">
+            <span style="top:70px;">1st generator x<xspan class="generator1mult">1</xspan> <span class="generator1amount">0</span>(<span class="gen1buyed">0</span>)</span>
+            <span style="top:130px;">2nd generator x<xspan class="generator2mult">1</xspan> <span class="generator2amount">0</span>(<span class="gen2buyed">0</span>)</span>
+            <span style="top:190px;">3rd generator x<xspan class="generator3mult">1</xspan> <span class="generator3amount">0</span>(<span class="gen3buyed">0</span>)</span>
+            <span style="top:250px;">4th generator x<xspan class="generator4mult">1</xspan> <span class="generator4amount">0</span>(<span class="gen4buyed">0</span>)</span>
+            <span style="top:310px;">5th generator x<xspan class="generator5mult">1</xspan> <span class="generator5amount">0</span>(<span class="gen5buyed">0</span>)</span>
+            <span style="top:370px;">6th generator x<xspan class="generator6mult">1</xspan> <span class="generator6amount">0</span>(<span class="gen6buyed">0</span>)</span>
+            <span style="top:430px;">7th generator x<xspan class="generator7mult">1</xspan> <span class="generator7amount">0</span>(<span class="gen7buyed">0</span>)</span>
+            <span style="top:490px;">8th generator x<xspan class="generator8mult">1</xspan> <span class="generator8amount">0</span>(<span class="gen8buyed">0</span>)</span>
+        </div>
+        <button class="multbuybutton" onclick="multiplayerbuy()">Get 2x more money Cost:<span class="multiplayer">1e6</span></button>
+        <button class="timefast" onclick="timefast()">Time goes faster by 1.5x Cost:<span class="timecost">1e15</span></button>
+        <span class="IP">You have <span class="amount2">0</span> Infinity Points.</span>
+        <span class="loading">LOADING...</span>
+    </div>
+<script src="js/main.js"></script>
+</script>
+</body>
+</html>
